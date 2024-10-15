@@ -8,19 +8,19 @@ global.socialm = "GitHub: hakisolos" //ur github or insta name
 global.location = "Nigeria, Edo, Benin" //ur location
 
 //new
-global.botname = 'NIKKA-V2' //ur bot name
-global.ownernumber = ['2349112171078'] //ur owner number, dont add more than one
-global.ownername = 'KING HAKI' //ur owner name
+global.botname = 'SANJU-V2' //ur bot name
+global.ownernumber = ['919728714060'] //ur owner number, dont add more than one
+global.ownername = 'SANJU BHAI' //ur owner name
 global.websitex = "haki.us.kg"
 global.wagc = "https://whatsapp.com/channel/0029VaoLotu42DchJmXKBN3L"
 global.themeemoji = '⛩'
-global.wm = "NIKKA-V2"
+global.wm = "SANJU-V2"
 global.botscript = 'https://github.com/hakisolos/nikka-v2' //script link
 global.packname = "KING"
-global.author = "HAKI"
-global.creator = "2349112171078@s.whatsapp.net"
+global.author = "SANJU"
+global.creator = "919728714060@s.whatsapp.net"
 global.xprefix = '.'
-global.premium = ["2349112171078"] // Premium User
+global.premium = ["919728714060"] // Premium User
 
 //bot sett
 global.typemenu = 'v12' // menu type 'v1' => 'v12'
