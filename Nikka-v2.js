@@ -245,7 +245,7 @@ const isQuotedDocument = type === 'extendedTextMessage';
                   if (!('setinfo' in group)) group.setinfo = false
 				          if (!('badword' in group)) group.badword = false
                   if (!('antiforeignnum' in group)) group.antiforeignnum = false
-                  if (!('antibot' in group)) group.antibot = false
+                  if (!('antibot' in group)) group.antibot = true
                   if (!('antiviewonce' in group)) group.antiviewonce = false
                   if (!('antispam' in group)) group.antispam = false
                   if (!('antimedia' in group)) group.media = false
@@ -258,14 +258,14 @@ const isQuotedDocument = type === 'extendedTextMessage';
                   if (!('anticontact' in group)) group.anticontact = false
                   if (!('antilocation' in group)) group.antilocation = false
                   if (!('antidocument' in group)) group.antidocument = false
-                  if (!('antilink' in group)) group.antilink = false
-                  if (!('antipromotion' in group)) group.antipromotion = false
-                  if (!('antidelete' in group)) group.antidelete = false
+                  if (!('antilink' in group)) group.antilink = true
+                  if (!('antipromotion' in group)) group.antipromotion = true
+                  if (!('antidelete' in group)) group.antidelete = true
                   if (!('antiemoji' in group)) group.antiemoji = false 
 			} else {
 				global.db.groups[m.chat] = {
 				  ntsfw: false,
-				  welcome: false,
+				  welcome: true,
 				  setinfo: false,
 				  badword: false,
                   antiforeignnum: false,
@@ -296,7 +296,7 @@ const isQuotedDocument = type === 'extendedTextMessage';
                if (!('totalhit' in setting)) setting.totalhit = 0
                if (!('totalError' in setting)) setting.totalError = 0
                if (!('online' in setting)) setting.online = false 
-               if (!('autosticker' in setting)) setting.autosticker = false 
+               if (!('autosticker' in setting)) setting.autosticker = true 
                if (!('autodownload' in setting)) setting.autodownload = false 
                if (!('autobio' in setting)) setting.autobio = false 
                if (!('autoread' in setting)) setting.autoread = false
@@ -314,7 +314,7 @@ const isQuotedDocument = type === 'extendedTextMessage';
                totalhit: 0,
                totalError: 0,
                online: false,
-               autosticker: false,
+               autosticker: true,
                autodownload: false,
                autobio: false,
                autoread: false,
